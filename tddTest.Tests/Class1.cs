@@ -16,13 +16,13 @@ namespace tddTest.Tests
         //    Assert.IsTrue(true, "true is true!");
         //}
 
-        [Test]
-        public void AddMoney()
-        {
-            Konto mittKonto = new Konto();
-            mittKonto.Insattning(7000);
-            Assert.AreEqual(7000, mittKonto.SaldoBesked(), 2); //kollar en double
-        }
+        //[Test]
+        //public void AddMoney()
+        //{
+        //    Konto mittKonto = new Konto();
+        //    mittKonto.Insattning(7000);
+        //    Assert.AreEqual(7000, mittKonto.SaldoBesked(), 2); //kollar en double
+        //}
 
         [Test]
         public void Uttag()
